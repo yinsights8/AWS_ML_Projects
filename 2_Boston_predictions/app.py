@@ -41,12 +41,5 @@ def predictions():
         return jsonify({"Message": "No Predictions"})
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-<<<<<<< HEAD
     app.run(host='0.0.0.0', port=8080, debug=False)
-=======
-    app.run(host='0.0.0.0', port=8080, debug=False)
->>>>>>> bb829f45f8f6c8872a296cde50d27e2e64db36d5
-=======
-    app.run(host='0.0.0.0', port=8080, debug=False)
->>>>>>> bb829f45f8f6c8872a296cde50d27e2e64db36d5
+
